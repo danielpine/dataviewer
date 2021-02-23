@@ -69,8 +69,9 @@ public class Table {
 	System.out.println(border);
 	for (List<String> cols : rows) {
 	    System.out.println(String.format(tpl, cols.toArray()));
-	    System.out.println(border);
+//	    System.out.println(border);
 	}
+	System.out.println(border);
     }
 
 }
